@@ -9,7 +9,7 @@ version: 2
 name: Beatriz Bergamo
 title: Bioinformatician and MSc student
 email: beatrizrbergamo@gmail.com
-website: www.github.com/brbergamo/brbergamo.github.io
+# website: www.github.com/brbergamo/brbergamo.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
