@@ -56,6 +56,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        border: weak
         title: Rosalind
         link: github.com/brbergamo/Rosalind
         # link_text: Project Website
@@ -89,6 +90,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: ByMyCell - A Genomics and SynBio Startup
         link: bymycell.com.br
         # link_text: boringcompany.com
