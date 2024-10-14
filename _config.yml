@@ -99,14 +99,50 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Led the analysis and processing of metagenomics data to study microbial diversity and metabolic potential, utilizing NGS data from Nanopore and Illumina. I developed and automated bioinformatics pipelines using Nextflow, significantly increasing workflow efficiency and reducing processing time.  
-            
-            Improved the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, leading to more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, which helped to better understand microbial functions and taxonomy. This work provided valuable insights to the company's clients, enhancing their research outcomes.
+            Analyzed and processed metagenomics data to explore microbial diversity and metabolic potential, using NGS data from Nanopore and Illumina. I developed and automated bioinformatics pipelines with Nextflow, significantly improving workflow efficiency and reducing processing time.
+
+            Enhanced the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, resulting in more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, helping to better understand microbial functions and taxonomy.
+      - layout: left
+        border: weak
+        title: Natural Products Metabolomics Laboratory - University of Strathclyde
+        # link_text: boringcompany.com
+        sub_title: Undergraduate Researcher
+        caption: October 2022 - April 2023
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: |
+          Worked on a co-culture project to analyze the metabolites produced by MRSA and fungi under competitive growth conditions. The goal of the research was to identify bioactive compounds with anti-biofilm properties, using techniques such as thin-layer chromatography (TLC), microbiological culture, and metabolite extraction to isolate and analyze potential compounds.
+
+          In addition to conducting lab work, I applied multivariate data analysis (PCA, PLS-DA) using SIMCA to identify key differences in metabolite profiles between different conditions. These analyses helped uncover potential bioactive compounds and provided valuable insights into the metabolic interactions between microbial species. This project strengthened my understanding of metabolomics and equipped me with practical skills in experimental design and data interpretation.
+      - layout: left
+        border: weak
+        title: Van der Hooft Computational Metabolomics Group
+        # link_text: boringcompany.com
+        sub_title: Undergraduate Researcher
+        caption: January 2022 - December 2023
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: |
+          Collaborated on large-scale mass spectrometry experiments to assess the effectiveness of spectral similarity and variable selection tools. I focused on testing and comparing pyMUVR, a machine learning-based tool for variable selection in metabolomics data.
+
+          I also developed a Python-based web application that made pyMUVR more accessible for other researchers, providing a user-friendly interface. This project improved selection accuracy and expanded my skills in web development and machine learning applied to biological data.
+      - layout: left
+        title: Natura & Co
+        # link_text: boringcompany.com
+        sub_title: Undergraduate Researcher
+        caption: July 2020 - July 2021
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: |
+          Developed a methodology to link metagenomic and bacterial functional data for a project that was a finalist in the Embrace Award 2021. My work included analyzing 16S sequencing data using tools like QIIME2 and PICRUSt2, and applying Python for data analysis.
+
+          I automated data processing workflows using Snakemake, improving both efficiency and reproducibility. This experience strengthened my skills in bioinformatics and pipeline development while contributing valuable insights to the company's research projects.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Boston University
         caption: 2024 - Present
         sub_title: MSc in Bioinformatics
