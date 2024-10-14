@@ -85,7 +85,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Led the analysis and processing of metagenomics data to study microbial diversity and metabolic potential, utilizing NGS data from Nanopore and Illumina. I developed and automated bioinformatics pipelines using Nextflow, significantly increasing workflow efficiency and reducing processing time.
 
-	    Improved the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, leading to more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, which helped to better understand microbial functions and taxonomy. This work provided valuable insights to the company's clients, enhancing their research outcomes.
+      Improved the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, leading to more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, which helped to better understand microbial functions and taxonomy. This work provided valuable insights to the company's clients, enhancing their research outcomes.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
