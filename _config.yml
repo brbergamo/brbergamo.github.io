@@ -123,9 +123,9 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: |
-          Collaborated on large-scale mass spectrometry experiments to assess the effectiveness of spectral similarity and variable selection tools. I focused on testing and comparing pyMUVR, a machine learning-based tool for variable selection in metabolomics data.
+          Collaborated on a project comparing spectral similarity and variable selection tools in large-scale mass spectrometry experiments. My work focused on testing and optimizing pyMUVR, a machine learning-based variable selection tool, with large metabolomics datasets. This involved evaluating its effectiveness for improving feature selection and overall analysis accuracy.
 
-          I also developed a Python-based web application that made pyMUVR more accessible for other researchers, providing a user-friendly interface. This project improved selection accuracy and expanded my skills in web development and machine learning applied to biological data.
+          Additionally, I developed a Python-based web application to host pyMUVR, creating an accessible and user-friendly interface for researchers.
       - layout: left
         title: Natura & Co
         # link_text: boringcompany.com
@@ -134,9 +134,9 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: |
-          Developed a methodology to link metagenomic and bacterial functional data for a project that was a finalist in the Embrace Award 2021. My work included analyzing 16S sequencing data using tools like QIIME2 and PICRUSt2, and applying Python for data analysis.
+          Developed a methodology to link metagenomic data with bacterial functional data as part of a research project that became a finalist in the Embrace Award 2021. Focused on analyzing 16S sequencing data using bioinformatics tools like QIIME2, PICRUSt2, and Cytoscape to investigate microbial communities and their functional potential.
 
-          I automated data processing workflows using Snakemake, improving both efficiency and reproducibility. This experience strengthened my skills in bioinformatics and pipeline development while contributing valuable insights to the company's research projects.
+          Programmed in Python to perform univariate statistical analyses, extracting key insights from the data. Automated data processing workflows using Snakemake, which improved the efficiency and reproducibility of the entire analysis pipeline.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
