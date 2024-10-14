@@ -164,10 +164,9 @@ content:
   - title: When I’m Not Working
     layout: text
     content: | # this will include new lines to allow paragraphs
-      When I’m not busy with bioinformatics, you’ll often find me enjoying the outdoors at local parks, appreciating nature and taking long walks. 
-      
-      I love exploring different coffee shops and discovering new cozy spots to relax with a good book. Reading is one of my favorite ways to unwind, along with watching a variety of movies—whether it’s a thought-provoking film or just something lighthearted. These activities help me recharge and find inspiration in everyday moments.
+      Outside of bioinformatics, I like spending time outdoors at parks, enjoying nature, and going on long walks.
 
+      I also love visiting different coffee shops and finding new places to relax with a good book. Reading and watching movies are my favorite ways to unwind, whether it's diving into a good story or just something fun and light. These activities help me recharge and clear my mind.
 
 # Footer
 footer_show_references: false
