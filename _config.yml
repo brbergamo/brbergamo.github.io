@@ -105,21 +105,20 @@ content:
         caption: 2024
         sub_title: BSc in Pharmaceutical Sciences and Biochemistry
         description: |
-          I completed my Bachelor's degree in Pharmaceutical Sciences at the University of São Paulo (USP), the top university in Latin America and the Caribbean according to the QS World University Ranking. During my studies, I developed strong skills in research and data analysis, particularly through my work at the Computational Chemical Biology Laboratory (CCBL), where I first learned bioinformatics and gained experience in applying computational methods to biological data.
+        
+        I completed my Bachelor's degree in Pharmaceutical Sciences at the University of São Paulo (USP), the top university in Latin America and the Caribbean according to the QS World University Ranking. During my studies, I developed strong skills in research, data analysis, and teamwork, particularly through my work at the Computational Chemical Biology Laboratory (CCBL), where I first learned bioinformatics and collaborated with colleagues on computational projects involving biological data.
 
-          In addition to my academic work, I was actively involved in the student community as the Director of the Cultural Department at the "Lourenço Roselino" Academic Center. My role included organizing cultural events, coordinating fundraising, and promoting integration among pharmacy students. These experiences helped me build leadership and event organization skills while contributing to the broader student community.
+        In addition to my academic work, I was actively involved in the student community as the Director of the Cultural Department at the "Lourenço Roselino" Academic Center. My role included organizing cultural events, coordinating fundraising, and promoting integration among pharmacy students. These experiences helped me build leadership and event organization skills while contributing to the broader student community.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      When I’m not busy with bioinformatics, you’ll often find me enjoying the outdoors at local parks, appreciating nature and taking long walks. 
+      
+      I love exploring different coffee shops and discovering new cozy spots to relax with a good book. Reading is one of my favorite ways to unwind, along with watching a variety of movies—whether it’s a thought-provoking film or just something lighthearted. These activities help me recharge and find inspiration in everyday moments.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      #Look at this cool image  
+      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
