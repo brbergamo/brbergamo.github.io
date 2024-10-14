@@ -128,7 +128,7 @@ content:
           Additionally, I developed a Python-based web application to host pyMUVR, creating an accessible and user-friendly interface for researchers.
       - layout: left
         title: Natura & Co
-        link_text: naturaeco.com/who-we-are/
+        link: naturaeco.com/who-we-are/
         sub_title: Undergraduate Researcher
         caption: July 2020 - July 2021
         #quote: >
