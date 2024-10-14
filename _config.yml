@@ -49,6 +49,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Beatriz! I’m a bioinformatician with a passion for multi-omics data analysis. I’m currently pursuing my Master’s in Bioinformatics at Boston University and working as a Graduate Researcher at the Fiszbein Lab, where I explore RNA-Seq data from mouse models to understand gene expression patterns related to aging.
+  
   I’m passionate about developing efficient pipelines for NGS data processing, and I also love creating clear visualizations that make complex datasets easier to interpret. With experience in tools like R, Python, Git, Nextflow, Snakemake, BASH, and Linux, I’m skilled at optimizing workflows for bioinformatics analysis. Additionally, I have experience with cloud computing platforms like OCI and high-performance computing (HPC), which allow me to scale and streamline data analysis.
 content:
   - title: Projects # Title for the section
