@@ -166,7 +166,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       Outside of bioinformatics, I like spending time outdoors at parks, enjoying nature, and going on long walks.
 
-      I also love visiting different coffee shops and finding new places to relax with a good book. Reading and watching movies are my favorite ways to unwind, whether it's diving into a good story or just something fun and light. These activities help me recharge and clear my mind.
+      I also love visiting different coffee shops and finding new places to relax with a good book. Reading and watching movies are my favorite ways to unwind, whether it's diving into a good story or just something fun and light.
 
 # Footer
 footer_show_references: false
