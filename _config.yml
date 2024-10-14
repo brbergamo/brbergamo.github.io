@@ -70,7 +70,21 @@ content:
           A collection of solutions to problems from the Rosalind platform.
         description: | # this will include new lines to allow paragraphs
           I created this project to solve bioinformatics challenges on the Rosalind platform using Python. It helped me sharpen my skills in algorithms and bioinformatics by working through real-world problems. I’ve shared these solutions to be helpful to others working through the same challenges, providing a resource they can learn from and build on. This project has been a great way to deepen my understanding of bioinformatics while contributing to the learning of others.
-
+      - layout: top-middle
+        title: KEGG Python Modules and Notebook
+        link: github.com/brbergamo/KEGG_API_scripts
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A set of Python tools for working with the KEGG API.
+        description: |
+          This is a project I created to streamline working with the KEGG (Kyoto Encyclopedia of Genes and Genomes) database. It includes a Jupyter notebook demonstrating how to use the KEGG API and a Python module that retrieves KEGG data and converts it into a CSV format for easier analysis. I developed this to improve my own workflow and to share with others who may find it useful in their bioinformatics projects. Hopefully, this tool can help others work more efficiently with KEGG while I continue to learn and improve through this project.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -109,7 +123,7 @@ content:
 
           In addition to my academic work, I was actively involved in the student community as the Director of the Cultural Department at the "Lourenço Roselino" Academic Center. My role included organizing cultural events, coordinating fundraising, and promoting integration among pharmacy students. These experiences helped me build leadership and event organization skills while contributing to the broader student community.
 
-  - title: A Little More About Me
+  - title: When I’m Not Working
     layout: text
     content: | # this will include new lines to allow paragraphs
       When I’m not busy with bioinformatics, you’ll often find me enjoying the outdoors at local parks, appreciating nature and taking long walks. 
