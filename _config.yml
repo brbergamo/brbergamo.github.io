@@ -70,9 +70,9 @@ content:
         quote: >
           A collection of solutions to problems from the Rosalind platform.
         description: | # this will include new lines to allow paragraphs
-          I created this project to solve bioinformatics challenges on the Rosalind platform using Python. It helped me sharpen my skills in algorithms and bioinformatics by working through real-world problems. I’ve shared these solutions to be helpful to others working through the same challenges, providing a resource they can learn from and build on. This project has been a great way to deepen my understanding of bioinformatics while contributing to the learning of others.
+          I created this project to solve bioinformatics challenges on the Rosalind platform using Python. It helped me sharpen my skills in algorithms and bioinformatics by working through real-world problems. I’ve shared these solutions to be helpful to others working through the same challenges, providing a resource they can learn from and build on. This project has been a great way to deepen my understanding of bioinformatics.
       - layout: top-middle
-        title: KEGG Python Modules and Notebook
+        title: KEGG Python Module and Notebook
         link: github.com/brbergamo/KEGG_API_scripts
         # link_text: Project Website
         additional_links:
@@ -104,7 +104,7 @@ content:
             Enhanced the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, resulting in more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, helping to better understand microbial functions and taxonomy.
       - layout: left
         border: weak
-        title: Natural Products Metabolomics Laboratory - University of Strathclyde
+        title: Natural Products Metabolomics Laboratory
         # link_text: boringcompany.com
         sub_title: Undergraduate Researcher
         caption: October 2022 - April 2023
@@ -128,7 +128,7 @@ content:
           Additionally, I developed a Python-based web application to host pyMUVR, creating an accessible and user-friendly interface for researchers.
       - layout: left
         title: Natura & Co
-        # link_text: boringcompany.com
+        link_text: naturaeco.com/who-we-are/
         sub_title: Undergraduate Researcher
         caption: July 2020 - July 2021
         #quote: >
@@ -153,7 +153,7 @@ content:
 
           I also participate in events by GWISE (Graduate Women in Science and Engineering), including career mentoring events and the Cambridge Science Festival, where I engage with the community and promote STEM education for children.
       - layout: left
-        title: University of Sao Paulo (USP)
+        title: University of Sao Paulo
         caption: 2024
         sub_title: BSc in Pharmaceutical Sciences and Biochemistry
         description: |
