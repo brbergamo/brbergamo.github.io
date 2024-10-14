@@ -56,20 +56,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Rosalind
+        link: github.com/brbergamo/Rosalind
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            #url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          A collection of solutions to problems from the Rosalind platform.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I created this project to solve bioinformatics challenges on the Rosalind platform using Python. It helped me sharpen my skills in algorithms and bioinformatics by working through real-world problems. I’ve shared these solutions to be helpful to others working through the same challenges, providing a resource they can learn from and build on. This project has been a great way to deepen my understanding of bioinformatics while contributing to the learning of others.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
