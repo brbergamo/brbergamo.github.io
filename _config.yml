@@ -91,7 +91,7 @@ content:
     content:
       - layout: left
         border: weak
-        title: ByMyCell - A Genomics and SynBio Startup
+        title: ByMyCell - A Genomics and SynBio Startup - Ribeirao Preto, Brazil
         link: bymycell.com.br
         # link_text: boringcompany.com
         sub_title: Bioinformatician
@@ -104,19 +104,19 @@ content:
             Enhanced the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, resulting in more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, helping to better understand microbial functions and taxonomy.
       - layout: left
         border: weak
-        title: Natural Products Metabolomics Laboratory
+        title: Natural Products Metabolomics Laboratory - Glasgow, Scotland
         # link_text: boringcompany.com
         sub_title: Undergraduate Researcher
         caption: October 2022 - April 2023
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: |
-          Worked on a co-culture project to analyze the metabolites produced by MRSA and fungi under competitive growth conditions. The goal of the research was to identify bioactive compounds with anti-biofilm properties, using techniques such as thin-layer chromatography (TLC), microbiological culture, and metabolite extraction to isolate and analyze potential compounds.
+          Selected for a competitive exchange program with only one position offered and awarded a scholarship to work at the University of Strathclyde. Worked on a co-culture project to analyze the metabolites produced by MRSA and fungi under competitive growth conditions. The goal of the research was to identify bioactive compounds with anti-biofilm properties, using techniques such as thin-layer chromatography (TLC), microbiological culture, and metabolite extraction to isolate and analyze potential compounds.
 
           In addition to conducting lab work, I applied multivariate data analysis (PCA, PLS-DA) using SIMCA to identify key differences in metabolite profiles between different conditions. These analyses helped uncover potential bioactive compounds and provided valuable insights into the metabolic interactions between microbial species. This project strengthened my understanding of metabolomics and equipped me with practical skills in experimental design and data interpretation.
       - layout: left
         border: weak
-        title: Van der Hooft Computational Metabolomics Group
+        title: Van der Hooft Computational Metabolomics Group - Remote
         # link_text: boringcompany.com
         sub_title: Undergraduate Researcher
         caption: January 2022 - December 2023
@@ -127,7 +127,7 @@ content:
 
           Additionally, I developed a Python-based web application to host pyMUVR, creating an accessible and user-friendly interface for researchers.
       - layout: left
-        title: Natura & Co
+        title: Natura & Co - Remote
         link: naturaeco.com/who-we-are/
         sub_title: Undergraduate Researcher
         caption: July 2020 - July 2021
@@ -157,7 +157,7 @@ content:
         caption: 2024
         sub_title: BSc in Pharmaceutical Sciences and Biochemistry
         description: |
-          I completed my Bachelor's degree in Pharmaceutical Sciences at the University of São Paulo (USP), the top university in Latin America and the Caribbean according to the QS World University Ranking. During my studies, I developed strong skills in research, data analysis, and teamwork, particularly through my work at the Computational Chemical Biology Laboratory (CCBL), where I first learned bioinformatics and collaborated with colleagues on computational projects involving biological data.
+          I completed my Bachelor's degree in Pharmaceutical Sciences at the University of São Paulo (USP), the top university in Latin America and the Caribbean according to the QS World University Ranking. During my studies, I developed strong skills in research, data analysis, and teamwork, particularly through bioinformatics projects in metagenomics and metabolomics at the [Computational Chemical Biology Laboratory (CCBL)](http://ccbl.fcfrp.usp.br/ccbl/), where I gained foundational expertise in computational methods to analyze complex biological datasets.
 
           In addition to my academic work, I was actively involved in the student community as the Director of the Cultural Department at the "Lourenço Roselino" Academic Center. My role included organizing cultural events, coordinating fundraising, and promoting integration among pharmacy students. These experiences helped me build leadership and event organization skills while contributing to the broader student community.
 
