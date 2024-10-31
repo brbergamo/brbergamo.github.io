@@ -91,10 +91,10 @@ content:
     content:
       - layout: left
         border: weak
-        title: ByMyCell - A Genomics and SynBio Startup - Ribeirao Preto, Brazil
+        title: ByMyCell - A Genomics and SynBio Startup
         link: bymycell.com.br
         # link_text: boringcompany.com
-        sub_title: Bioinformatician
+        sub_title: Bioinformatician - Ribeirao Preto, Brazil
         caption: August 2023 - August 2024
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -104,9 +104,9 @@ content:
             Enhanced the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, resulting in more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, helping to better understand microbial functions and taxonomy.
       - layout: left
         border: weak
-        title: Natural Products Metabolomics Laboratory - Glasgow, Scotland
+        title: Natural Products Metabolomics Laboratory
         # link_text: boringcompany.com
-        sub_title: Undergraduate Researcher
+        sub_title: Undergraduate Researcher - Glasgow, Scotland
         caption: October 2022 - April 2023
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -116,9 +116,9 @@ content:
           In addition to conducting lab work, I applied multivariate data analysis (PCA, PLS-DA) using SIMCA to identify key differences in metabolite profiles between different conditions. These analyses helped uncover potential bioactive compounds and provided valuable insights into the metabolic interactions between microbial species. This project strengthened my understanding of metabolomics and equipped me with practical skills in experimental design and data interpretation.
       - layout: left
         border: weak
-        title: Van der Hooft Computational Metabolomics Group - Remote
+        title: Van der Hooft Computational Metabolomics Group
         # link_text: boringcompany.com
-        sub_title: Undergraduate Researcher
+        sub_title: Undergraduate Researcher - Remote
         caption: January 2022 - December 2023
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -127,9 +127,9 @@ content:
 
           Additionally, I developed a Python-based web application to host pyMUVR, creating an accessible and user-friendly interface for researchers.
       - layout: left
-        title: Natura & Co - Remote
+        title: Natura & Co
         link: naturaeco.com/who-we-are/
-        sub_title: Undergraduate Researcher
+        sub_title: Undergraduate Researcher - Remote
         caption: July 2020 - July 2021
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
