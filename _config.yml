@@ -57,6 +57,31 @@ content:
     content:
       - layout: top-middle
         border: weak
+        title: RShiny App for RNA-Seq Data Analysis
+        link: github.com/brbergamo/rshiny-app-591r
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A Shiny app for interactive RNA-Seq data exploration and visualization.
+        description: |
+          This project is an interactive Shiny application designed to streamline RNA-Seq data analysis. The app allows users to explore sample metadata, filter and visualize gene expression counts, and perform differential expression analysis. 
+
+          Key features include:
+          - **Sample Metadata Exploration:** Summary tables, sortable data tables, and customizable visualizations such as histograms and density plots.
+          - **Counts Matrix Analysis:** Gene filtering based on variance and expression thresholds, scatter plots for variance vs. median count, and clustered heatmaps with optional log transformation.
+          - **Differential Expression Analysis (DEA):** Integration with DESeq2, limma, or edgeR, sortable tables of results, and visualizations like volcano plots.
+          - **Principal Component Analysis (PCA):** Interactive selection of PCs for scatter plots, with variance explained displayed for each component.
+          - **Gene Set Enrichment Analysis (GSEA):** Uses fgsea to perform pathway enrichment analysis with customizable filtering and visualization of top pathways.
+
+          The app was built using **R Shiny**, leveraging packages such as **ggplot2, DESeq2, fgsea, DT, and gplots** to ensure an interactive and efficient data analysis workflow. It is ideal for researchers working with RNA-Seq data who want an accessible and customizable tool for exploratory data analysis and visualization.
+      - layout: top-middle
+        border: weak
         title: Rosalind
         link: github.com/brbergamo/Rosalind
         # link_text: Project Website
