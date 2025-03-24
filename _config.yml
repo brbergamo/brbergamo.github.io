@@ -166,7 +166,7 @@ content:
         description: |
           Collaborated on a project comparing spectral similarity and variable selection tools in large-scale mass spectrometry experiments. My work focused on testing and optimizing pyMUVR, a machine learning-based variable selection tool, with large metabolomics datasets. This involved evaluating its effectiveness for improving feature selection and overall analysis accuracy.
 
-          Additionally, I developed a Python-based web application to host pyMUVR, creating an accessible and user-friendly interface for researchers.
+          Additionally, a Python-based web application was developed to host pyMUVR, creating an accessible and user-friendly interface for researchers.
       - layout: left
         title: Natura & Co
         link: naturaeco.com/who-we-are/
@@ -190,7 +190,8 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic #pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          I’m currently pursuing my Master’s in Bioinformatics at Boston University, where I’m developing key skills in data analysis and teamwork. My coursework focuses on bioinformatics and multi-omics data analysis, and I use these skills regularly in my research work.
+          I’m currently pursuing my Master’s in Bioinformatics at Boston University, where I’m developing strong skills in NGS data analysis, R programming, SQL, machine learning, and workflow management with Nextflow. My coursework focuses on bioinformatics and multi-omics data analysis, and I apply these skills regularly in research contexts.
+          In addition to hands-on experience with RNA-Seq data, I’m also learning about a variety of sequencing technologies and experimental approaches, including Drop-seq, ChIP-seq, and other high-throughput techniques commonly used in genomics and transcriptomics. This training is helping me build a solid foundation to analyze complex biological datasets and design reproducible, efficient pipelines.
 
           I also participate in events by GWISE (Graduate Women in Science and Engineering), including career mentoring events and the Cambridge Science Festival, where I engage with the community and promote STEM education for children.
       - layout: left
@@ -198,17 +199,17 @@ content:
         caption: 2024
         sub_title: BSc in Pharmaceutical Sciences and Biochemistry
         description: |
-          I completed my Bachelor's degree in Pharmaceutical Sciences at the University of São Paulo (USP), the top university in Latin America and the Caribbean according to the QS World University Ranking. During my studies, I developed strong skills in research, data analysis, and teamwork, particularly through bioinformatics projects in metagenomics and metabolomics at the [Computational Chemical Biology Laboratory (CCBL)](http://ccbl.fcfrp.usp.br/ccbl/), where I gained foundational expertise in computational methods to analyze complex biological datasets.
+          I completed my Bachelor's degree in Pharmaceutical Sciences at the University of São Paulo (USP), the top university in Latin America and the Caribbean according to the QS World University Ranking. During my studies, I developed strong skills in research, data analysis, drug discovery, and teamwork, particularly through bioinformatics projects in metagenomics and metabolomics at the [Computational Chemical Biology Laboratory (CCBL)](http://ccbl.fcfrp.usp.br/ccbl/), where I gained foundational expertise in computational methods to analyze complex biological datasets.
 
           In addition to my academic work, I was actively involved in the student community as the Director of the Cultural Department at the "Lourenço Roselino" Academic Center. My role included organizing cultural events, coordinating fundraising, and promoting integration among pharmacy students. These experiences helped me build leadership and event organization skills while contributing to the broader student community.
 
   - title: When I’m Not Working
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Outside of bioinformatics, I like spending time outdoors at parks, enjoying nature, and going on long walks.
+      When I’m not working with data, I really enjoy being outside — going for long walks, exploring parks, and just spending time in nature. It’s my favorite way to reset.
 
-      I also love visiting different coffee shops and finding new places to relax with a good book. Reading and watching movies are my favorite ways to unwind, whether it's diving into a good story or just something fun and light.
-
+      I also love discovering new coffee shops around the city, reading something good (usually fiction), and baking when I have the time. It’s a nice balance to the more technical side of what I do.
+ 
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
