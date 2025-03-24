@@ -81,7 +81,7 @@ Ideal for small- to medium-scale RNA-Seq experiments or as a lightweight startin
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            # url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -106,7 +106,7 @@ Ideal for small- to medium-scale RNA-Seq experiments or as a lightweight startin
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            # url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
