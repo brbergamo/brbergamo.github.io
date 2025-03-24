@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Beatriz! I’m a bioinformatician with a passion for multi-omics data analysis. I’m currently pursuing my Master’s in Bioinformatics at Boston University, where I’m rotating in a lab that explores RNA-Seq data from mouse models to understand gene expression patterns related to aging.
   
-  I’m passionate about turning biological data into insights that drive new hypotheses and experiments - I get way too excited about that! I also focus on building efficient NGS pipelines and love creating visualizations that make complex datasets easy to interpret. With tools like R, Python, Git, Nextflow, Snakemake, BASH, and Linux, I streamline workflows for bioinformatics, and my experience with OCI and HPC lets me scale analyses to meet any challenge.
+  I’m passionate about turning biological data into insights that drive new hypotheses and experiments - I get way too excited about that! I also focus on building efficient NGS pipelines and love creating visualizations that make complex datasets easy to interpret. With tools like R, Python, Git, Nextflow, Snakemake, BASH, and Linux, I streamline workflows for bioinformatics, and my experience with Cloud Computing and HPC lets me scale analyses to meet any challenge.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
