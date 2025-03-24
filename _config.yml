@@ -56,13 +56,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: top-middle
-        border: weak
-        title: RNA-Seq Alignment and Quantification Scripts
-        link: github.com/brbergamo/bioinfo_scripts
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
+      border: weak
+      title: RNA-Seq Alignment and Quantification Scripts
+      link: github.com/brbergamo/bioinfo_scripts
+      # link_text: Project Website
+      additional_links:
+        - title:  sproogen/modern-resume-theme
+          icon: fab fa-github
             #url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
