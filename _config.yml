@@ -70,9 +70,7 @@ content:
         quote: >
           A minimal set of HPC-compatible Bash scripts for RNA-Seq analysis.
         description: |
-          This project includes two core scripts: one for aligning paired-end RNA-Seq reads using STAR, a splice-aware aligner, and another for gene-level quantification with featureCounts. Designed to run efficiently on a computing cluster, the scripts handle automatic detection of input files and parallel processing, producing sorted BAM files and a unified count matrix for downstream analysis.
-
-      Ideal for small- to medium-scale RNA-Seq experiments or as a lightweight starting point for building more complex NGS pipelines.    
+          This project includes two core scripts: one for aligning paired-end RNA-Seq reads using STAR, a splice-aware aligner, and another for gene-level quantification with featureCounts. Designed to run efficiently on a computing cluster, the scripts handle automatic detection of input files and parallel processing, producing sorted BAM files and a unified count matrix for downstream analysis. Ideal for small- to medium-scale RNA-Seq experiments or as a lightweight starting point for building more complex NGS pipelines.    
       - layout: top-middle
         border: weak
         title: RShiny App for RNA-Seq Data Analysis
