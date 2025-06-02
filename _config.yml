@@ -57,6 +57,22 @@ content:
     content:
       - layout: top-middle
         border: weak
+        title: Gene Expression-Based Leukemia Classification
+        link: github.com/brbergamo/gene_expression_project
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A machine learning approach to classify leukemia subtypes (ALL vs. AML) from high-dimensional gene expression data.
+        description: |
+          Applied machine learning to classify leukemia subtypes (ALL vs. AML) using microarray gene expression data from 72 patient samples. After preprocessing and dimensionality reduction with PCA, I trained a logistic regression model with hyperparameter tuning via GridSearchCV. This project highlights the challenges of high-dimensional biological data and serves as a starting point for building more accurate classifiers in transcriptomics.    
+      - layout: top-middle
+        border: weak
         title: RNA-Seq Alignment and Quantification Scripts
         link: github.com/brbergamo/bioinfo_scripts
         # link_text: Project Website
