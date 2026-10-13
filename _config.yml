@@ -30,7 +30,10 @@ linkedin_username: beatriz-bergamo
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
+additional_links:
+- title: Blog
+  icon: fas fa-pen
+  url: https://brbergamo.github.io/blog/
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
@@ -231,6 +234,7 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
+permalink: /blog/:year/:month/:title/
 remote_theme: sproogen/resume-theme
 
 sass:
