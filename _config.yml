@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Beatriz Bergamo
-title: Bioinformatician and MSc student
+title: Computational Biologist
 email: beatrizrbergamo@gmail.com
 # website: www.github.com/brbergamo/brbergamo.github.io
 
@@ -51,9 +51,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Beatriz! I’m a bioinformatician with a passion for multi-omics data analysis. I’m currently pursuing my Master’s in Bioinformatics at Boston University, where I’m rotating in a lab that explores RNA-Seq data from mouse models to understand gene expression patterns related to aging.
+  Hi, my name is Beatriz! I’m a computational biologist with a background in Pharmaceutical Sciences, working with omics data since 2020. I love learning about different research questions, understanding the biology behind them, and figuring out which analyses can help answer them.
   
-  I’m passionate about turning biological data into insights that drive new hypotheses and experiments - I get way too excited about that! I also focus on building efficient NGS pipelines and love creating visualizations that make complex datasets easy to interpret. With tools like R, Python, Git, Nextflow, Snakemake, BASH, and Linux, I streamline workflows for bioinformatics, and my experience with Cloud Computing and HPC lets me scale analyses to meet any challenge.
+  I’m currently a Research Scientist in the Genomic Data Science Core at Dartmouth, where I lead client projects end to end across bulk and single-cell RNA-seq, ATAC-seq and metagenomics. What motivates me most is helping researchers move their projects forward by turning complex data into meaningful, actionable results - I get way too excited about that!
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -64,9 +64,9 @@ content:
         link: github.com/brbergamo/gene_expression_project
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  brbergamo/gene_expression_project
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/brbergamo/gene_expression_project
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -80,9 +80,9 @@ content:
         link: github.com/brbergamo/bioinfo_scripts
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  brbergamo/bioinfo_scripts
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/brbergamo/bioinfo_scripts
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -96,9 +96,9 @@ content:
         link: github.com/brbergamo/rshiny-app-591r
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  brbergamo/rshiny-app-591r
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/brbergamo/rshiny-app-591r
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -121,9 +121,9 @@ content:
         link: github.com/brbergamo/Rosalind
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  brbergamo/Rosalind
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/brbergamo/Rosalind
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -136,9 +136,9 @@ content:
         link: github.com/brbergamo/KEGG_API_scripts
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  brbergamo/KEGG_API_scripts
             icon: fab fa-github
-            #url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/brbergamo/KEGG_API_scripts
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -151,17 +151,26 @@ content:
     content:
       - layout: left
         border: weak
+        title: Genomic Data Science Core - Geisel School of Medicine at Dartmouth
+        sub_title: Research Scientist (Computational Biology) - Hanover, NH
+        caption: September 2025 - Present
+        description: | # this will include new lines to allow paragraphs
+          I lead client projects end to end as the primary analyst (20+ to date), from raw data processing and downstream analysis to presenting results and reports to research groups. Projects span bulk and single-cell RNA-seq, ATAC-seq, metagenomics and single-cell multiomics across human, mouse and zebrafish data, including transcription-factor regulon inference (SCENIC), trajectory inference, copy number variant analysis (ResolveOME), and modeling of microbial diversity and taxon abundance with linear and mixed-effects models (MaAsLin3).
+
+          I also extend our in-house Snakemake pipelines on a Slurm HPC cluster with Singularity containers, adding modules for spike-in miRNA-seq and rRNA removal (RiboDetector) and documenting changes and usage. I adapted our tRNA-seq pipeline (Clover-seq) to single-cell 10x OCM data, recovering 3.5 times as many tRNA molecules as Cell Ranger; trained a Cellpose-SAM deep-learning model to improve cell segmentation in 10x Xenium HD data; and built an AI-assisted QC tool with Claude agent skills that interprets MultiQC reports with kit-specific explanations to speed up sample triage.
+      - layout: left
+        border: weak
         title: ByMyCell - A Genomics and SynBio Startup
         link: bymycell.com.br
         # link_text: boringcompany.com
-        sub_title: Bioinformatician - Ribeirao Preto, Brazil
+        sub_title: Bioinformatics Intern → Bioinformatician - Ribeirao Preto, Brazil
         caption: August 2023 - August 2024
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Analyzed and processed metagenomics data to explore microbial diversity and metabolic potential, using NGS data from Nanopore and Illumina. I developed and automated bioinformatics pipelines with Nextflow, significantly improving workflow efficiency and reducing processing time.
+            Analyzed targeted and shotgun metagenomics data from Nanopore and Illumina to explore microbial diversity and metabolic potential, using Oracle Cloud Infrastructure for compute. I extended and automated a microbial functional prediction workflow with Nextflow, integrating PICRUSt2 and MinPath into the existing metabolic annotation pipeline.
 
-            Enhanced the metabolic annotation pipeline by integrating tools like PICRUSt2 and MinPath, resulting in more accurate pathway predictions. Additionally, I applied advanced data analysis techniques to uncover patterns in the data, helping to better understand microbial functions and taxonomy.
+            Additionally, I reviewed the scientific literature to guide pipeline improvements and applied statistical analyses to uncover patterns in microbial function and taxonomy.
       - layout: left
         border: weak
         title: Natural Products Metabolomics Laboratory
@@ -204,15 +213,15 @@ content:
       - layout: left
         border: weak
         title: Boston University
-        caption: 2024 - Present
+        caption: 2024 - 2025
         sub_title: MSc in Bioinformatics
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic #pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          I’m currently pursuing my Master’s in Bioinformatics at Boston University, where I’m developing strong skills in NGS data analysis, R programming, SQL, machine learning, and workflow management with Nextflow. My coursework focuses on bioinformatics and multi-omics data analysis, and I apply these skills regularly in research contexts.
-          In addition to hands-on experience with RNA-Seq data, I’m also learning about a variety of sequencing technologies and experimental approaches, including Drop-seq, ChIP-seq, and other high-throughput techniques commonly used in genomics and transcriptomics. This training is helping me build a solid foundation to analyze complex biological datasets and design reproducible, efficient pipelines.
+          I completed my Master’s in Bioinformatics at Boston University, where I built strong skills in NGS data analysis, R programming, SQL, machine learning, and workflow management with Nextflow. My coursework focused on bioinformatics and multi-omics data analysis, with hands-on work on RNA-Seq data and training in sequencing technologies and experimental approaches such as Drop-seq, ChIP-seq and other high-throughput techniques. I also did a research rotation analyzing RNA-Seq data from mouse models to study gene expression patterns related to aging.
 
-          I also participate in events by GWISE (Graduate Women in Science and Engineering), including career mentoring events and the Cambridge Science Festival, where I engage with the community and promote STEM education for children.
+          I also took part in GWISE (Graduate Women in Science and Engineering) events, including career mentoring events and the Cambridge Science Festival, where I helped promote STEM education for children.
+
       - layout: left
         title: University of Sao Paulo
         caption: 2024
