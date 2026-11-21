@@ -39,7 +39,7 @@ img{max-width:100%;display:block}
 .hero{position:relative;min-height:100vh;display:grid;place-items:center;text-align:center;color:#fff;overflow:hidden;
   background:radial-gradient(1200px 700px at 20% 10%,#6e2350 0%,transparent 60%),radial-gradient(900px 600px at 90% 90%,#3d1d55 0%,transparent 60%),linear-gradient(160deg,var(--night2),var(--night))}
 .hero__grid{position:relative;z-index:2;width:100%;max-width:1240px;padding:90px 48px 110px;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:64px;align-items:center;text-align:left}
-.avatar{position:relative;width:120px;height:120px;margin:0 0 26px;border-radius:50%;padding:4px}
+.avatar{position:relative;width:200px;height:200px;margin:0 0 30px;border-radius:50%;padding:5px}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .tile{margin:0;padding:12px 12px 10px;border-radius:18px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
   opacity:0;transform:translateY(24px);animation:up .9s cubic-bezier(.2,.8,.2,1) forwards;transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s,background .35s}
@@ -54,8 +54,7 @@ img{max-width:100%;display:block}
 @keyframes spin{to{transform:rotate(360deg)}}
 .hero h1{font-family:var(--serif);font-weight:600;font-style:italic;font-size:clamp(46px,6vw,84px);line-height:1;margin:0;letter-spacing:-.02em}
 .hero h1 .dot{color:var(--glow)}
-.role{margin-top:20px;font-size:clamp(14px,1.5vw,17px);letter-spacing:.2em;text-transform:uppercase;color:#e3c6d3;min-height:3.4em}
-.role .caret{display:inline-block;width:2px;height:1em;background:var(--glow);vertical-align:-2px;margin-left:4px;animation:blink 1s steps(1) infinite}
+.role{margin-top:20px;font-size:clamp(14px,1.5vw,17px);letter-spacing:.2em;text-transform:uppercase;color:#e3c6d3}
 @keyframes blink{50%{opacity:0}}
 .hero nav{margin-top:40px;display:flex;flex-wrap:wrap;gap:10px}
 .hero nav a{color:#fff;text-decoration:none;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:10px 18px;border:1px solid rgba(255,255,255,.25);border-radius:999px;transition:all .3s}
@@ -158,9 +157,9 @@ footer{text-align:center;padding:40px 20px;color:var(--muted);font-size:14px;bor
   .body{padding:56px 22px 70px}
   .contact-links{grid-template-columns:1fr}
   .topbar a{padding:6px 9px;font-size:11.5px}
-  .role{min-height:3.4em;letter-spacing:.16em;padding:0 10px}
+  .role{letter-spacing:.16em;padding:0 10px}
   .hero__grid{grid-template-columns:1fr;gap:40px;padding:70px 20px 100px;text-align:center}
-  .avatar{margin:0 auto 22px}
+  .avatar{width:160px;height:160px;margin:0 auto 22px}
   .hero nav{justify-content:center}
   .tiles{grid-template-columns:repeat(2,1fr);gap:10px}
   .tile canvas{height:96px}
@@ -186,7 +185,7 @@ footer{text-align:center;padding:40px 20px;color:var(--muted);font-size:14px;bor
     <div class="hero__text intro">
       <div class="avatar"><img src="images/profile.jpg" alt="Beatriz Bergamo"></div>
       <h1>Beatriz<br>Bergamo<span class="dot">.</span></h1>
-      <div class="role"><span id="typed">Computational Biologist</span><span class="caret"></span></div>
+      <div class="role">Computational Biologist</div>
       <nav>
         <a href="#about">About</a><a href="#experience">Experience</a><a href="blog/">Blog</a><a href="#contact">Contact</a>
       </nav>
@@ -530,19 +529,6 @@ footer{text-align:center;padding:40px 20px;color:var(--muted);font-size:14px;bor
     new IntersectionObserver(es => { const was = heroOn; heroOn = es[0].isIntersecting; if(heroOn && !was) requestAnimationFrame(tick); }).observe(heroEl);
   }
   let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { sizeTiles(); if(reduce){ tiles.forEach(o => o.v.settle && o.v.settle()); tick(0); } }, 150); });
-
-  /* ---------- typed roles ---------- */
-  const roles = ['Computational Biologist','Bulk & single-cell RNA-seq','ATAC-seq · Metagenomics','Helping researchers dig into their data'];
-  const el = document.getElementById('typed');
-  if(!reduce){ let r = 0, i = roles[0].length, del = true;
-    setTimeout(function tick(){
-      const s = roles[r];
-      if(del){ i--; if(i <= 0){ del = false; r = (r+1) % roles.length; } }
-      else { i++; if(i >= roles[r].length){ del = true; el.textContent = roles[r]; return setTimeout(tick, 2200); } }
-      el.textContent = roles[del ? r : r].slice(0, Math.max(i,0));
-      setTimeout(tick, del ? 35 : 70);
-    }, 2600);
-  }
 
   /* ---------- sequencing readout art: wells flash a color as each base is read ---------- */
   (function(){
